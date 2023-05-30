@@ -5,6 +5,22 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+/* Estilos para o "thumb" (o indicador de posição na barra) */
+::-webkit-scrollbar-thumb {
+  background-color: #125526; /* Cor do indicador */
+  border-radius: 6px;
+}
+
+/* Estilos para o "track" (a trilha da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background-color: #f7f7f7; /* Cor da trilha */
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -117,4 +133,133 @@ span {
   height: 100px;
   background-color: #edf1d6;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fome h3 {
+  font-size: 22px;
+  color: #9dc08b;
+  font-weight: 600;
+}
+
+.fome {
+  margin-top: 100px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  color: #337948;
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.icones img {
+  margin-top: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+.icones div {
+  display: inline-block;
+  text-align: center;
+}
+
+.sobrenos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1200px;
+  gap: 20px;
+}
+
+.sobrenos-item h2 {
+  font-size: 50px;
+  color: #337948;
+  font-weight: 500;
+}
+
+.sobrenos-item p {
+  font-size: 24px;
+}
+
+.sobrenos-item h3 {
+  color: #9dc08b;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.pai {
+  display: grid;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.idoso img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.botao-juntese {
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 24px;
+  background-color: #125526;
+  display: block;
+  padding: 15px;
+  color: white;
+  width: 150px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.informacoes {
+  max-width: 1200px;
+  margin-top: 150px;
+  display: grid;
+  justify-content: center;
+}
+
+.informacoes h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.informacoes p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.informacoes-p {
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer a {
+  display: block;
+  width: 150px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.test {
+  margin-top: 60px;
+  background-color: #edf1d6;
+}
+
+.test-sub p {
+  color: #337948;
+  font-weight: 600;
+}
+
+.outer-container {
+  background-color: #edf1d6;
 }
