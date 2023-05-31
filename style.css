@@ -263,3 +263,74 @@ footer a {
 .outer-container {
   background-color: #edf1d6;
 }
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.principal-sub h1 {
+  font-size: 60px;
+}
+
+.principal-sub p {
+  color: #656565;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.detalhe {
+  background-color: #337948;
+  width: 40px;
+  height: 7px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 4px;
+}
+
+.container-campo {
+  display: flex;
+  gap: 20px;
+}
+
+.titulo-sustentabilidade {
+  color: #337948;
+  font-weight: 500;
+  font-size: 62px;
+}
+
+.subtitulo-sustentabilidade {
+  color: #9dc08b;
+  font-weight: 600;
+}
+
+.paragrafo-sustentabilidade {
+  color: #656565;
+  font-size: 26px;
+}
+
+.container-pai-sustentabilidade {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.titulo-direito {
+  text-align: end;
+  margin-right: 50px;
+}
+
+.ajuda {
+  font-size: 40px;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 6px;
+  border: 1px solid #337948;
+}
+
+label {
+  display: inline-block;
+}
