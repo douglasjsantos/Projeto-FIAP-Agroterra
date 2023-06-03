@@ -170,7 +170,7 @@ span {
 .sobrenos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 1200px;
+  max-width: 1200px;
   gap: 20px;
 }
 
@@ -325,12 +325,61 @@ footer a {
   font-size: 40px;
 }
 
+/* Página contato */
 input {
   font-size: 1.2rem;
   padding: 6px;
   border: 1px solid #337948;
 }
 
-label {
+/* label {
   display: inline-block;
+} */
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .sobrenos img {
+    display: none;
+  }
+  .sobrenos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 920px) {
+  .image-wrapper {
+    display: none;
+  }
+  .sub-campo {
+    display: none;
+  }
+  .principal p {
+    font-size: 20px;
+  }
+  .principal h1 {
+    font-size: 34px;
+  }
+  .container-pai-sustentabilidade h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  .agroterra {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-menu {
+    display: grid;
+    justify-content: center;
+  }
+  .icones {
+    display: grid;
+    gap: 0px;
+  }
 }
