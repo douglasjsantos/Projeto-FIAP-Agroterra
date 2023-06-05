@@ -420,3 +420,28 @@ label {
   display: block;
 
 }
+
+.grupo {
+  display: flex;
+  gap: 6px;
+}
+
+.item p {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+}
+
+.item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid transparent;
+}
