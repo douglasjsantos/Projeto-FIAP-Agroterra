@@ -390,10 +390,33 @@ img {
 
 }
 
- 
-
 .grid-contato {
 
   display: grid;
 
-}s
+}
+
+.grid-contato button {
+
+  margin-top: 10px;
+
+  padding: 10px;
+
+  background-color: #337948;
+
+  color: white;
+
+  border-radius: 6px;
+
+  border: none;
+
+  font-size: 20px;
+
+}
+
+
+label {
+
+  display: block;
+
+}
