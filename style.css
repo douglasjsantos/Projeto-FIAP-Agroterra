@@ -383,3 +383,17 @@ img {
     gap: 0px;
   }
 }
+
+.item img:hover {
+
+  transform: scale(1.1);
+
+}
+
+ 
+
+.grid-contato {
+
+  display: grid;
+
+}s
