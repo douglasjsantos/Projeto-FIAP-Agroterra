@@ -333,6 +333,11 @@ img {
   max-width: 100%;
 }
 
+.grupo {
+  display: flex;
+  gap: 6px;
+}
+
 @media (max-width: 1200px) {
   .sobrenos img {
     display: none;
@@ -375,6 +380,10 @@ img {
     display: grid;
     gap: 0px;
   }
+  .grupo {
+    display: grid;
+    gap: 6px;
+  }
 }
 
 .item img:hover {
@@ -397,11 +406,6 @@ img {
 
 label {
   display: block;
-}
-
-.grupo {
-  display: flex;
-  gap: 6px;
 }
 
 .item p {
