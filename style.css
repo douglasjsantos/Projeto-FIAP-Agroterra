@@ -269,13 +269,13 @@ footer a {
 }
 
 .principal-sub h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .principal-sub p {
   color: #656565;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .detalhe {
@@ -377,46 +377,28 @@ img {
   }
 }
 
-<<<<<<< HEAD
-=======
 .item img:hover {
-
   transform: scale(1.1);
-
 }
 
 .grid-contato {
-
   display: grid;
-
 }
 
 .grid-contato button {
-
   margin-top: 10px;
-
   padding: 10px;
-
   background-color: #337948;
-
   color: white;
-
   border-radius: 6px;
-
   border: none;
-
   font-size: 20px;
-
 }
-
 
 label {
-
   display: block;
-
 }
 
->>>>>>> 71ad1a894c9a6c68d40514199b1c6c3a436c59cb
 .grupo {
   display: flex;
   gap: 6px;
@@ -440,7 +422,6 @@ label {
   object-fit: cover;
   border-radius: 6px;
   border: 2px solid transparent;
-<<<<<<< HEAD
 }
 
 .item img {
@@ -471,6 +452,3 @@ label {
 label {
   display: block;
 }
-=======
-}
->>>>>>> 71ad1a894c9a6c68d40514199b1c6c3a436c59cb
